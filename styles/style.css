@@ -126,7 +126,7 @@ main{
 .skills{
     padding: 0 200px;
     text-align: center;
-    margin-top: 130px;;
+    margin-top: 130px;
 }
 .skill-title{
     font-size: 35px;
@@ -151,4 +151,54 @@ main{
     border-radius: 5px;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
     text-align: start;
+}
+
+/* Resume */
+.resume{
+    padding: 0 200px;
+    margin-top: 130px;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.resume-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.education-title, .experience-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: bold;
+}
+.education-sub, .job{
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold; 
+}
+.education-institute, .job-company{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.education-des, .job-company-des {
+    color: #757575;
+    font-size: 16px;
+}
+.resume-btn{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 18px 17px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.resume-btn-container{
+    text-align: center;
+    margin-top: 50px;
 }
