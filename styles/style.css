@@ -202,3 +202,56 @@ main{
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer */
+
+.footer{
+    background-color: #FFF8F3;
+    margin-top: 113px;
+}
+.footer-container{
+    display: flex;
+    gap: 117px;
+    padding: 130px 240px;
+    margin-left: 170px;
+}
+.social-media-title, .form-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.social-media-des{
+    font-size: 16px;
+}
+.social-media > img{
+    margin-right: 24px;
+}
+.form-container > input{
+    display: block;
+    background-color: white;
+    width: 461px;
+    height: 64px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    padding-left: 30px;
+}
+textarea{
+    display: block;
+    background-color: white;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    padding-left: 30px;
+}
+.form-btn{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 18px 39px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
